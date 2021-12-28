@@ -1,0 +1,36 @@
+
+1Q)List 5 difference between Browser JS(console) v Nodejs
+code/ans-
+nodejs	
+•	Node doesn’t have a predefined “window” object because it doesn’t have a window to draw anything.
+•	“location” object is related to a particular url; that means it is for page specific. So, node doesn’t require that.
+•	 Node doesn’t have “document” object also because it never have to render anything in a page.
+•	Node has “global”, which is a predefined global object. It contains several functions that are not available in browsers, cause they are needed for server side works only.
+•	“require” object is predefined in Node which is used to include modules in the app.
+In Node everything is a module. we must keep our code inside a module.
+Browser js
+•       “window” is a predefined global object which has functions and attributes, that have to deal with window that has been drawn.
+•	“location” is another predefined object in browsers, that has all the information about the url we have loaded.
+•	“document”, which is also another predefined global variable in browsers, has the html which is rendered.
+•	Browsers may have an object named “global”, but it will be the exact one as “window”.
+•	Browsers don’t have “require” predefined. we may include it in our app for asynchronous file loading. Moduling is not mandatory in client side JavaScript, i.e. in browsers
+
+
+2Q)watch & summary 5 points - https://www.youtube.com/watch?v=SmE4OwHztCc&ab_channel=JSConf
+
+ ANS-when we push enter in the browsers address bar, magic happens. The browser gets our HTML, that intern requests all the dependencies, other things happen and then we have our site rendered. How the browser does what it does. What makes it tick, how it turns a string of HTML into a data structure, how CSS & JavaScript come into play, render tree, style recalculation.script tags at the bottom of the document, inlining critical CSS & all other techniques.
+
+4Q)
+typeof(1)-number
+typeof(1.1)-number
+typeof('1.1')-string
+typeof(true)-boolean
+typeof(null)-object
+typeof(undefined)-undefined
+typeof([])-function
+typeof({})-function
+typeof(NaN)-number
+
+5Q)Read what is prototype
+ans-
+Prototypes are the mechanism by which JavaScript objects inherit features from one another.
